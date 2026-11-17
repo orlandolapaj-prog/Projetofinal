@@ -9,4 +9,3 @@ while Contador <= 30:
     Contador = Contador + 1
 
     print(" ingresso liberados")
-
