@@ -2,20 +2,14 @@
 
 #Simular o acesso ao painel de configurações do terminal, que exige uma senha específica para ser liberado.
 
-Usuario=input("escreva seu Usuario")
+Usuario=input("Escreva seu nome ")
 
-Senha="123333"
+Senha="admin_cine2024"
 
 while True:
 
     if Senha == Usuario:
-        print("Autenticação bem-sucedida. Acesso ao painel liberado")
-
-elif:
-print()
-
-
-
-
-
-
+        print("Autenticação bem-sucedida.Acesso ao painel liberado")
+        break
+else:
+    print("Senha incorreta. Tente novamente")

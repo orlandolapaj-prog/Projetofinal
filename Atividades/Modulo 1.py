@@ -6,15 +6,21 @@
 
 Faxa_etaria_de_idade =int(input("Clinte digite a sua idade:"))
 
-print("Escreva aqui se você esta acompanhado a idade, sim ou não")
+Acompanhante=input("Escreva aqui se você esta acompanhado a idade,( sim ou não):")
 
 
-if Faxa_etaria_de_idade >= 16 and Faxa_etaria_de_idade >= 12:
-          print("Acesso permitido")
+if Faxa_etaria_de_idade >= 16 or Faxa_etaria_de_idade >= 12 and Acompanhante =="sim":
+
+           print("Acesso permitido")
 
 else:
+           print("Acesso negado. A classificação indicativa não foi atendida.")
 
-          print("Acesso negado")
+
+
+
+
+
 
 
 
