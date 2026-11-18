@@ -6,12 +6,10 @@
 Senha="admin_cine2024"
 
 while True:
-
- Usuario=input("Disgite sua senha")
-
+    Usuario=input("Disgite sua senha:")
 
     if Senha == Usuario:
         print("Autenticação bem-sucedida.Acesso ao painel liberado")
         break
-      else:
-        print("Senha incorreta. Tente novamente")
+    else:
+         print("Senha incorreta. Tente novamente")
